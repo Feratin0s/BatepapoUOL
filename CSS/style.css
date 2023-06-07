@@ -1,0 +1,76 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.Start {
+  /*ORGANIZACAO*/
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.Start .container {
+  width: 375px;
+  height: 667px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Start img {
+  /*MEDIDAS*/
+  margin-top: 72px;
+  width: 130px;
+  height: 92px;
+  margin-bottom: 94px;
+}
+
+.Start input {
+  /*MEDIDAS*/
+  /*ORGANIZACAO*/
+  box-sizing: border-box;
+  width: 261px;
+  height: 54px;
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  /*LETRA*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #aeaeae;
+}
+
+.Start button {
+  /*MEDIDAS*/
+  width: 109px;
+  height: 45px;
+  border-radius: 9px;
+  background: #e7e7e7;
+
+  /*LETRA*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #696969;
+
+  /*ORGANIZACAO*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Start button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
